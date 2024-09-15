@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bs-light);
+    /* border-radius: 10px; */
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--bs-dark);
+    /* border-radius: 10px; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--bs-secondary);
+}
+
+body {
+    background-color: var(--bs-dark-bg-subtle);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--bs-dark);
+    background-color: var(--bs-tertiary-bg);
+}
+
+.form-check-input:checked {
+    background-color: var(--bs-dark);
+    border-color: var(--bs-dark);
+}
+
+.form-check-input:focus {
+    border-color: var(--bs-dark);
+    box-shadow: none;
+}
+
+.form-check-input:focus {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23ADB5BD'/%3e%3c/svg%3e");
+}
+
+.form-check-input:focus:checked {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23FFFFFF'/%3e%3c/svg%3e");
+}
+
+textarea {
+    resize: none;
+}
+
+.noto-sans-mayan-numerals-regular {
+    font-family: "Noto Sans Mayan Numerals", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cabin-sketch-regular {
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.c-h-75 {
+    height: 75px;
+}
+
+.c-h-250 {
+    height: 250px;
+}
+
+.c-line-h-0p9 {
+    line-height: 0.9;
+}
+
+.c-hidden {
+    display: none;
+}
