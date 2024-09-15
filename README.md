@@ -1,2 +1,2 @@
 # MayanNums
-Decimal (International Numerals) to Mayan Numerals Converter
+Decimal (International Numerals) to Mayan Numerals Converter.
